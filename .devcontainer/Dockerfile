@@ -15,4 +15,12 @@ FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:0-${VARIANT}
 # [Optional] Uncomment if you want to install more global node modules
 # RUN su node -c "npm install -g <your-package-list-here>"
 
+# for vscode
 RUN yarn
+RUN code --install-extension dbaeumer.vscode-eslint
+RUN code --install-extension donjayamanne.githistory
+RUN code --install-extension eamodio.gitlens
+RUN code --install-extension esbenp.prettier-vscode
+RUN code --install-extension ms-azuretools.vscode-docker
+RUN code --install-extension oderwat.indent-rainbow
+RUN code --install-extension shd101wyy.markdown-preview-enhanced

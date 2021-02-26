@@ -7,6 +7,7 @@ npm i parcel-bundler -D && npm i p5 && npm i @types/p5 -D
 ## check extension
 
 code --list-extensions | xargs -L 1 echo code --install-extension
+code --list-extensions | xargs -L 1 echo RUN code --install-extension
 
 ## basic extensions
 

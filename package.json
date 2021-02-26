@@ -1,0 +1,29 @@
+{
+  "name": "p5",
+  "version": "1.0.0",
+  "description": "npm i parcel-bundler -D && npm i p5 && npm i @types/p5 -D",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuki1111117/p5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuki1111117/p5/issues"
+  },
+  "homepage": "https://github.com/yuki1111117/p5#readme",
+  "devDependencies": {
+    "@types/p5": "^0.9.1",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^4.2.2"
+  },
+  "dependencies": {
+    "p5": "^1.2.0"
+  }
+}

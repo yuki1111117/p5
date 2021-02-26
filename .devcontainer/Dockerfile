@@ -18,10 +18,10 @@ RUN npm i parcel-bundler -D && npm i p5 && npm i @types/p5 -D
 
 # for vscode
 RUN yarn
-RUN code --install-extension dbaeumer.vscode-eslint
-RUN code --install-extension donjayamanne.githistory
-RUN code --install-extension eamodio.gitlens
-RUN code --install-extension esbenp.prettier-vscode
-RUN code --install-extension ms-azuretools.vscode-docker
-RUN code --install-extension oderwat.indent-rainbow
-RUN code --install-extension shd101wyy.markdown-preview-enhanced
+#RUN code --install-extension dbaeumer.vscode-eslint
+#RUN code --install-extension donjayamanne.githistory
+#RUN code --install-extension eamodio.gitlens
+#RUN code --install-extension esbenp.prettier-vscode
+#RUN code --install-extension ms-azuretools.vscode-docker
+#RUN code --install-extension oderwat.indent-rainbow
+#RUN code --install-extension shd101wyy.markdown-preview-enhanced
